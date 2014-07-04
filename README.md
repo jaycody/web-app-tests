@@ -36,7 +36,7 @@ _________________________
 
 _____________________________
 
-###Part 3:  Create Project Plan
+###Part 3:  Project Plan
 1. Test Plan
 2. Methods
 3. Prototype [github] - Selenium Builder, CI via Jenkins and Github
