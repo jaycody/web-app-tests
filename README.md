@@ -3,7 +3,7 @@ prototype test plan and automation scripts for random webapp
 
 ________________________
 
-###Keys to a Success
+###Project Overview
 1. Elucidate app's existing worklow
     - what does it do?
 2. Transform the workflow into test scripts
@@ -29,14 +29,12 @@ _________________________
     - Decision makers want timely reports!
 5. Determine who writes the scripts, who runs the sripts, and who's waiting for results
 6. Identify process and next steps
-    - Write test scripts (Selenium WebDriver)
-    - Create reporting mechanism (pytest, unittests)
-    - create command line tools for developers to use the tests
-    - automate the regression tests with Jenkins / Saucelab automated regression tests
-####Version 2 Features:
+
+####Assessment for Version 2:
 - Define and test the operational requirments (version 2 features)
     - eg. Performance, Stress and Volume
 
+_____________________________
 
 ###Create Project Plan From Assessment
 1. Test Plan
@@ -48,12 +46,13 @@ _________________________
 7. Build It
 
 ###Test Plan
+- {magik here}
 
 ###Method
-- write test scripts - (Selenium Webdrivr, Python)
-- create error reporting mechanism - (pytest, unittests)
-- provide interface for developers - command line
-- automate regression tesss (Jenkins, SauceLabs, Github)
+- test scripts - (Selenium Webdrivr, Python)
+- error reporting - (pytest, unittests, SauceLabs)
+- interface for developers - (command line)
+- automated regression tests (Jenkins, SauceLabs, Github)
 
 
 [interactive sketching notation]:http://www.linowski.ca/downloads/InteractiveSketchingNotation_0.1.pdf
