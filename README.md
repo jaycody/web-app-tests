@@ -1,4 +1,4 @@
-##Web App Tests
+##Web App Test Automation
 prototype test plan and automation scripts for random webapp
 
 ________________________
