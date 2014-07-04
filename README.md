@@ -79,7 +79,13 @@ _______________________________
 ```
 python -m unittest -h
 ```
-
+- [Python Testing Fundamentals](https://www.youtube.com/watch?v=jTJHQ-zQMk4) - basics of unittest, assert, and doctest
+- [Intro to Robot Framework](https://www.youtube.com/watch?v=CrkfmqFbJpU) - video from uTest
+    - Robot Framework, implemented with Selenium Library, allows for quick creation of keyword based Automation scripts
+Implementation of a keyword library is simplified and allows for automation scripts that are human readable. Implemented correctly, users end up with executable documents that are automation scripts and documented requirements. Robot Framework includes several built in libraries and can be extended using python
+- [Building a CI System Using SE-Builder Github, Travis and SauceLabs](http://sauceio.com/index.php/2013/03/building-a-ci-system-using-selenium-builder-github-travis-and-sauce-labs/)
+    - The great thing about this setup is that if you put your site code and your tests into the same GitHub repository, then whenever you update the site code, and whenever you update the tests, Travis will rerun your Selenium tests on Sauce OnDemand – and then send you an email about whether or not they still work!
+- [pytest usage and examples](http://pytest.org/latest/example/index.html#examples)
 
 _______________________________
 
