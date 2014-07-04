@@ -3,11 +3,11 @@ prototype test plan and automation scripts for random webapp
 
 ________________________
 
-###Project Overview
-1. Elucidate app's existing worklow
-    - what does it do?
-2. Transform the workflow into test scripts
-    - automate verification of what it supposed to do (Selenium WebDriver, Python)
+###Part 1:  Project Overview
+1. Elucidate app's existing worklow  
+    - what does it do?  
+2. Transform the workflow into test scripts  
+    - automate verification of what it supposed to do (Selenium WebDriver, Python)  
 3. Regard test scripts as software worthy of maintainence and version-control
     - hey!  this is legitimate software devlopment
 4. Automate regression testing based on changes to code base.
@@ -17,7 +17,7 @@ ________________________
 
 _________________________
 
-###Assessment Phase for the new Automation Engineer
+###Part 2:  Assessment Phase for the new Automation Engineer
 1. Learn who's who.
     - introductions, roles, responsibilties
 2. Learn the workflow and generate a UI sketch 
@@ -36,21 +36,26 @@ _________________________
 
 _____________________________
 
-###Create Project Plan From Assessment
+###Part 3:  Create Project Plan
 1. Test Plan
-2. Method
+2. Methods
 3. Prototype [github] - Selenium Builder, CI via Jenkins and Github
 4. Feedback and Recommendations
 5. Roadmap and Long Range
 6. TimeLines
 7. Build It
 
-###Test Plan
+_______________________________
+
+####3.1 The Test Plan
 - {magik here}
 
-###Method
-- prototype test scripts - [Selenium Builder]
-- test scripts - ([Selenium WebDriver], [Python])
+####3.2 Methods
+- test script prototypes: 
+    - [Selenium Builder]
+- test scripts
+    - ([Selenium WebDriver] via [Python])
+    - [Page Object Model]
     - possible alternative = [Robot Framework]
         - Robot Framework is a Python-based keyword-driven test automation framework with an easy-to-use tabular syntax for creating test cases. Its testing capabilities can be extended by test libraries implemented either with Python or Java. Users can also create new keywords from existing ones using the same simple syntax that is used for creating test cases.
 - error reporting - ([pytest], [unittests], [SauceLabs])
@@ -58,6 +63,15 @@ _____________________________
 - prototype automated regression testing [Selenium Builder], [Jenkins]
 - automated regression tests ([Jenkins], [SauceLabs], [Github], [pytest_sauce])
 
+_______________________________
+
+###Resources and Notes
+- [Page Object Model]
+    - [Martin Fowler's article](http://martinfowler.com/bliki/PageObject.html)
+        - A page object wraps an HTML page, or fragment, with an application-specific API, allowing you to manipulate page elements without digging around in the HTML.
+    - [Page Objects on Selenium wiki](https://code.google.com/p/selenium/wiki/PageObjects)
+        
+_______________________________
 
 [interactive sketching notation]:http://www.linowski.ca/downloads/InteractiveSketchingNotation_0.1.pdf
 [Selenium WebDriver]:http://docs.seleniumhq.org/docs/03_webdriver.jsp
@@ -70,3 +84,4 @@ _____________________________
 [pytest_sauce]:https://pypi.python.org/pypi/pytest_sauce
 [Selenium Builder]:http://sauceio.com/index.php/2013/03/building-a-ci-system-using-selenium-builder-github-travis-and-sauce-labs/
 [Robot Framework]:https://github.com/robotframework/robotframework
+[Page Object Model]:http://martinfowler.com/bliki/PageObject.html
