@@ -39,7 +39,7 @@ _____________________________
 ###Create Project Plan From Assessment
 1. Test Plan
 2. Method
-3. Prototype
+3. Prototype [github] - Selenium Builder, CI via Jenkins and Github
 4. Feedback and Recommendations
 5. Roadmap and Long Range
 6. TimeLines
@@ -49,10 +49,18 @@ _____________________________
 - {magik here}
 
 ###Method
-- test scripts - (Selenium Webdrivr, Python)
-- error reporting - (pytest, unittests, SauceLabs)
+- test scripts - ([Selenium WebDriver], [Python])
+- error reporting - ([pytest], [unittests], [SauceLabs])
 - interface for developers - (command line)
-- automated regression tests (Jenkins, SauceLabs, Github)
+- automated regression tests ([Jenkins], [SauceLabs], [Github], [pytest_sauce])
 
 
 [interactive sketching notation]:http://www.linowski.ca/downloads/InteractiveSketchingNotation_0.1.pdf
+[Selenium WebDriver]:http://docs.seleniumhq.org/docs/03_webdriver.jsp
+[Python]:http://selenium-python.readthedocs.org
+[pytest]:https://pypi.python.org/pypi/pytest/2.5.2
+[unittests]:https://docs.python.org/2/library/unittest.html
+[SauceLabs]:https://saucelabs.com
+[Jenkins]:https://docs.saucelabs.com/ci-integrations/jenkins/
+[Github]:http://sauceio.com/index.php/2013/03/building-a-ci-system-using-selenium-builder-github-travis-and-sauce-labs/
+[pytest_sauce]:https://pypi.python.org/pypi/pytest_sauce
