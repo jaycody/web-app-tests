@@ -49,9 +49,11 @@ _____________________________
 - {magik here}
 
 ###Method
+- prototype test scripts - [Selenium Builder]
 - test scripts - ([Selenium WebDriver], [Python])
 - error reporting - ([pytest], [unittests], [SauceLabs])
 - interface for developers - (command line)
+- prototype automated regression testing [Selenium Builder], [Jenkins]
 - automated regression tests ([Jenkins], [SauceLabs], [Github], [pytest_sauce])
 
 
@@ -64,3 +66,4 @@ _____________________________
 [Jenkins]:https://docs.saucelabs.com/ci-integrations/jenkins/
 [Github]:http://sauceio.com/index.php/2013/03/building-a-ci-system-using-selenium-builder-github-travis-and-sauce-labs/
 [pytest_sauce]:https://pypi.python.org/pypi/pytest_sauce
+[Selenium Builder]:http://sauceio.com/index.php/2013/03/building-a-ci-system-using-selenium-builder-github-travis-and-sauce-labs/
