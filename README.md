@@ -70,7 +70,17 @@ _______________________________
     - [Martin Fowler's article](http://martinfowler.com/bliki/PageObject.html)
         - A page object wraps an HTML page, or fragment, with an application-specific API, allowing you to manipulate page elements without digging around in the HTML.
     - [Page Objects on Selenium wiki](https://code.google.com/p/selenium/wiki/PageObjects)
-        
+- [unittests] - Unit Testing Framework
+    - test fixture - represents prep needed to perform one or more tests
+    - test case - smallest unit of testing
+    - test suite - implmented with TestSuite class
+    - test runner - executes the test and provides the feedback
+    - to list all command line options:
+```
+python -m unittest -h
+```
+
+
 _______________________________
 
 [interactive sketching notation]:http://www.linowski.ca/downloads/InteractiveSketchingNotation_0.1.pdf
