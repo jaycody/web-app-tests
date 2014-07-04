@@ -51,6 +51,8 @@ _____________________________
 ###Method
 - prototype test scripts - [Selenium Builder]
 - test scripts - ([Selenium WebDriver], [Python])
+    - possible alternative = [Robot Framework]
+        - Robot Framework is a Python-based keyword-driven test automation framework with an easy-to-use tabular syntax for creating test cases. Its testing capabilities can be extended by test libraries implemented either with Python or Java. Users can also create new keywords from existing ones using the same simple syntax that is used for creating test cases.
 - error reporting - ([pytest], [unittests], [SauceLabs])
 - interface for developers - (command line)
 - prototype automated regression testing [Selenium Builder], [Jenkins]
@@ -67,3 +69,4 @@ _____________________________
 [Github]:http://sauceio.com/index.php/2013/03/building-a-ci-system-using-selenium-builder-github-travis-and-sauce-labs/
 [pytest_sauce]:https://pypi.python.org/pypi/pytest_sauce
 [Selenium Builder]:http://sauceio.com/index.php/2013/03/building-a-ci-system-using-selenium-builder-github-travis-and-sauce-labs/
+[Robot Framework]:https://github.com/robotframework/robotframework
