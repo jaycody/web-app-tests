@@ -27,10 +27,33 @@ _________________________
     - create the input, determine the output, compare to expected 
 4. Determine what to do with test results?  Who receives the auto emails upon failure?  Texts?
     - Decision makers want timely reports!
-5. Define and test the operational requirments (version 2 features)
+5. Determine who writes the scripts, who runs the sripts, and who's waiting for results
+6. Identify process and next steps
+    - Write test scripts (Selenium WebDriver)
+    - Create reporting mechanism (pytest, unittests)
+    - create command line tools for developers to use the tests
+    - automate the regression tests with Jenkins / Saucelab automated regression tests
+####Version 2 Features:
+- Define and test the operational requirments (version 2 features)
     - eg. Performance, Stress and Volume
 
 
+###Create Project Plan From Assessment
+1. Test Plan
+2. Method
+3. Prototype
+4. Feedback and Recommendations
+5. Roadmap and Long Range
+6. TimeLines
+7. Build It
+
+###Test Plan
+
+###Method
+- write test scripts - (Selenium Webdrivr, Python)
+- create error reporting mechanism - (pytest, unittests)
+- provide interface for developers - command line
+- automate regression tesss (Jenkins, SauceLabs, Github)
 
 
 [interactive sketching notation]:http://www.linowski.ca/downloads/InteractiveSketchingNotation_0.1.pdf
