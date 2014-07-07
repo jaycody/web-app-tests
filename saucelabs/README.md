@@ -35,9 +35,20 @@ pip install selenium pytest pytest-xdist sauceclient
 	- The webdriver.Remote is a standard Selenium interface, so you can do anything that you could do with a local Selenium test. The only code specific to Sauce Labs was the URL that makes the test run using a browser on Sauce Labs' servers. 
 	- Once connected to Sauce Labs, the test runs commands to remote-control a browser. This simple example test simply requests a page and makes a few simple assertions. It runs against several browsers simultaneously, to demonstrate parallelized testing, and reports its status to Sauce Labs when complete.
 
-###Running Test - [from saucelab documentation](https://saucelabs.com/docs/onboarding)
+###Running Test using py.test 
+- [from saucelab documentation](https://saucelabs.com/docs/onboarding)
 - We recommend running tests in parallel using py.test. Since our example test runs in two browsers, lets run both at the same time with -n2:
 
 ```
 $ py.test -n2 --boxed example.py
+```
+- Example Output
+```
+    ============================== test session starts ==============================
+    platform darwin -- Python 2.7.5 -- pytest-2.5.1
+    plugins: xdist
+    gw0 [2] / gw1 [2]
+    scheduling tests via LoadScheduling
+    ..
+    =========================== 2 passed in 17.30 seconds ===========================
 ```
