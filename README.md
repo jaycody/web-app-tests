@@ -4,7 +4,7 @@
 ________________________
 
 ###Test Plan Overview:
-####[Objectives](https://github.com/jayjaycody/web-app-tests#objectives-1)
+####[Objectives](#objectives)
 2. Required Steps
 3. Assessment Phase
 4. Scope
@@ -12,6 +12,7 @@ ________________________
 6. Method
 7. Defect Management
 8. Resources and Notes
+
 
 _________________________________
 
