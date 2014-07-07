@@ -161,15 +161,19 @@ webdriver.Remote()
 
 ####Step 6. Feedback - Recommendations - Alternatives
 this is not a final step - it's an ongoing process  
+
 **Feedback:**  
 - actively pursue it.  invite it.  assume it's non-optional  
+
 **Recommendations:**    
 - remain open to the outcome rather than attached to the process (regardless of who created it from scratch)  
+
 **Alternatives:**   
 - Review alternative test methodologies and frameworks  
 - test automation tools change daily, act accordingly  
 - build an evolvable framework  
-**list of possible alternative**    
+
+**list of alternatives:**    
 - [Robot Framework]
     - Robot Framework is a Python-based keyword-driven test automation framework with an easy-to-use tabular syntax for creating test cases. Its testing capabilities can be extended by test libraries implemented either with Python or Java. Users can also create new keywords from existing ones using the same simple syntax that is used for creating test cases.
     - [Intro to Robot Framework](https://www.youtube.com/watch?v=CrkfmqFbJpU) - video from uTest
