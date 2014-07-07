@@ -169,8 +169,8 @@ webdriver.Remote()
     - Review alternative test methodologies and frameworks
     - test automation tools change daily, act accordingly
     - build an evolvable framework
-    - **list of possible alternative**
-    #####[Robot Framework]
+    - **list of possible alternative**  
+    #####- [Robot Framework]
         - Robot Framework is a Python-based keyword-driven test automation framework with an easy-to-use tabular syntax for creating test cases. Its testing capabilities can be extended by test libraries implemented either with Python or Java. Users can also create new keywords from existing ones using the same simple syntax that is used for creating test cases.
         - [Intro to Robot Framework](https://www.youtube.com/watch?v=CrkfmqFbJpU) - video from uTest
         - Robot Framework, implemented with Selenium Library, allows for quick creation of keyword based Automation scripts
