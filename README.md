@@ -7,7 +7,7 @@ ________________________
 #####[Objectives](#objectives-1)
 #####[Required Steps](#required-steps-1)
 #####[Assessment Phase](#assessment-phase-1)
-4. Scope
+4. [Scope](#4-scope)
 5. Proposed Approach
 6. Method
 7. Defect Management
@@ -16,13 +16,13 @@ ________________________
 
 _________________________________
 
-### <a name="objectives-1"></a>Objectives
+###1. Objectives
 - Continuously verify and validate Homejoy webapp functionality according to specs and requirements. 
 - Build and deploy a test automation framework capable of continuous verification and validation of the Homejoy webapp.
 
 _________________________________
 
-###Required Steps
+###2. Required Steps
 1. Elucidate app's existing workflow  
     - what does it do?  
 2. Transform the workflow into test scripts  
@@ -36,7 +36,7 @@ _________________________________
 
 _________________________
 
-###Assessment Phase
+###3. Assessment Phase
 1. Learn who's who. [Automation Engineer]
     - introductions, roles, responsibilities
 2. Learn the workflow and generate a UI sketch [Automation Engineer] 
