@@ -16,7 +16,7 @@ ________________________
 
 _________________________________
 
-### <a name="objectives"></a>Objectives
+### <a name="objectives-1"></a>Objectives
 - Continuously verify and validate Homejoy webapp functionality according to specs and requirements. 
 - Build and deploy a test automation framework capable of continuous verification and validation of the Homejoy webapp.
 
