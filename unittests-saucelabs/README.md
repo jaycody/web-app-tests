@@ -1,5 +1,5 @@
 ##Run unittests on SauceLabs
-
+webdriver.Remote()   # Use Saucelab Servers!
 ___________________
 
 ###With SauceLab:
@@ -32,8 +32,8 @@ pip install selenium pytest pytest-xdist sauceclient
         )
 ```
 - webdriver.Remote() - [from saucelab documentation](https://saucelabs.com/docs/onboarding)
-	- The webdriver.Remote is a standard Selenium interface, so you can do anything that you could do with a local Selenium test. The only code specific to Sauce Labs was the URL that makes the test run using a browser on Sauce Labs' servers. 
-	- Once connected to Sauce Labs, the test runs commands to remote-control a browser. This simple example test simply requests a page and makes a few simple assertions. It runs against several browsers simultaneously, to demonstrate parallelized testing, and reports its status to Sauce Labs when complete.
+    - The webdriver.Remote is a standard Selenium interface, so you can do anything that you could do with a local Selenium test. The only code specific to Sauce Labs was the URL that makes the test run using a browser on Sauce Labs' servers. 
+    - Once connected to Sauce Labs, the test runs commands to remote-control a browser. This simple example test simply requests a page and makes a few simple assertions. It runs against several browsers simultaneously, to demonstrate parallelized testing, and reports its status to Sauce Labs when complete.
 
 ###Running Test using py.test 
 - [from saucelab documentation](https://saucelabs.com/docs/onboarding)

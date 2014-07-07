@@ -1,0 +1,54 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://www.homejoy.com/"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Get Your Place Cleaned"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "BOOK APPOINTMENT"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Number of hours to book"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='home-size-form']/div/div[1]/select//option[3]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "100% Satisfaction Guarantee"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='info-pane-person']//button[.='Next']"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Enter Contact Info"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}

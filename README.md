@@ -1,5 +1,5 @@
 ##Web App Test Automation
-prototype test plan and automation scripts for random webapp
+test plan, test cases, and automation strategies for Homejoy [prototype]
 
 ________________________
 
@@ -47,10 +47,42 @@ _____________________________
 
 _______________________________
 
-####3.1 The Test Plan
-- {magik here}
+###3.1 The Test Plan
+####3.1.1 Objective
+Continuously verify and validate that the Homejoy webapp functions according to specifications and requirements.
+#####3.1.2 Scope  
+This test plan covers basic UI and DB functionality as would be required for general user scenarios within a wide variety of environments and platforms.
 
-####3.2 Methods
+#####**In-Scope:**
+- **Platforms and Environments**
+    - **MOBILE:**
+        - All major mobile browsers for current and recent versions iOS and Android
+    - **Desktop:**
+        - All major browsers for all current and recent versions of Mac OS and Windows 
+    
+- **Features covered in this test plan**
+    - Page Load
+    - Login
+    - Create New User Account
+    - Setup Appointment
+    - Cancel Appointment
+    - Change Appointment Date
+    - Add Service to Existing Appointment
+    - Remove Service from Existing Appointment
+
+#####**Out-of-Scope:**
+- UX / usability / layout
+- performance and load testing
+
+####3.1.3 Approach
+A Selenium-based test automation suite written in Python and executed on SauceLab test servers
+- {DETAILS HERE}
+
+####3.1.4 Defect Management
+
+__________________________
+
+###3.2 Methods
 - test script prototypes: 
     - [Selenium Builder]
 - test scripts

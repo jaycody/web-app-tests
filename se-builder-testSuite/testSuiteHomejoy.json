@@ -1,0 +1,20 @@
+{
+  "type": "suite",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "scripts": [
+    {
+      "where": "local",
+      "path": "testContactUsPage.json"
+    },
+    {
+      "where": "local",
+      "path": "testBookAppointButton.json"
+    },
+    {
+      "where": "local",
+      "path": "testContactInfoPage.json"
+    }
+  ],
+  "shareState": false
+}
