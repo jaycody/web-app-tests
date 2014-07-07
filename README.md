@@ -160,35 +160,35 @@ webdriver.Remote()
 - provide a test interface for developers and staff
 
 ####Step 6. Feedback - Recommendations - Alternatives
-- this is not a final step - it's an ongoing process
-- **Feedback:**
-    - actively pursue it.  invite it.  assume it's non-optional
-- **Recommendations:**  
-    - remain open to the outcome rather than attached to the process (regardless of who created it from scratch)
-- **Alternatives:**
-    - Review alternative test methodologies and frameworks
-    - test automation tools change daily, act accordingly
-    - build an evolvable framework
-    - **list of possible alternative**  
-    #####- [Robot Framework]
-        - Robot Framework is a Python-based keyword-driven test automation framework with an easy-to-use tabular syntax for creating test cases. Its testing capabilities can be extended by test libraries implemented either with Python or Java. Users can also create new keywords from existing ones using the same simple syntax that is used for creating test cases.
-        - [Intro to Robot Framework](https://www.youtube.com/watch?v=CrkfmqFbJpU) - video from uTest
-        - Robot Framework, implemented with Selenium Library, allows for quick creation of keyword based Automation scripts
+this is not a final step - it's an ongoing process  
+**Feedback:**  
+- actively pursue it.  invite it.  assume it's non-optional
+**Recommendations:**    
+- remain open to the outcome rather than attached to the process (regardless of who created it from scratch)
+**Alternatives:**  
+- Review alternative test methodologies and frameworks
+- test automation tools change daily, act accordingly
+- build an evolvable framework
+**list of possible alternative**  
+- [Robot Framework]
+    - Robot Framework is a Python-based keyword-driven test automation framework with an easy-to-use tabular syntax for creating test cases. Its testing capabilities can be extended by test libraries implemented either with Python or Java. Users can also create new keywords from existing ones using the same simple syntax that is used for creating test cases.
+    - [Intro to Robot Framework](https://www.youtube.com/watch?v=CrkfmqFbJpU) - video from uTest
+    - Robot Framework, implemented with Selenium Library, allows for quick creation of keyword based Automation scripts
 Implementation of a keyword library is simplified and allows for automation scripts that are human readable. Implemented correctly, users end up with executable documents that are automation scripts and documented requirements. Robot Framework includes several built in libraries and can be extended using python
-        - [RIDE] - the test data editor for Robot Framework test data
-        - acceptance testing framework
-        - **keyword** driven
-        - selenium plugins
-        - installation:
-          - pip install robotframeworks
-        - good at separating test cases from the test code.
-        - simple test case
-          - user can create an account and login.  ACTION: create valid user.  
-        - data drive the tests:
-          - Test Cases:  passwordsTooLong..  passwordsTooShort
-        - Jenkins integration with Jenkins Plugins
-        - [robot + selenium video tutorials]
-        - rebot plugin aggregates all reporting feedback
+    - [RIDE] - the test data editor for Robot Framework test data
+    - acceptance testing framework
+    - **keyword** driven
+    - selenium plugins
+    - installation:
+      - pip install robotframeworks
+    - good at separating test cases from the test code.
+    - simple test case
+      - user can create an account and login.  ACTION: create valid user.  
+    - data drive the tests:
+      - Test Cases:  passwordsTooLong..  passwordsTooShort
+    - Jenkins integration with Jenkins Plugins
+    - [robot + selenium video tutorials]
+    - rebot plugin aggregates all reporting feedback
 
 __________________________________
 
