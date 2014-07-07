@@ -108,12 +108,14 @@ ___________________________________
     - rapid prototyping, extensive platform coverage
 - con:
     - clumsy. lacks abstraction, won't scale
+
 ####Step 2. Create Python test scripts from prototype test suite
 - current location of ported test cases ==> [unittests]
 - from [Selenium Builder] port test cases to Python
 - fix translation issues with [Selenium WebDriver] and [Python] caused by porting test cases
 - expand [unittest] features
 - modify test cases to run from command line
+
 ####Step 3. Modify Python test scripts to run multi-platform tests remotely
 - to run test cases on remote servers, add:
 ```
@@ -141,16 +143,19 @@ webdriver.Remote()
         =========================== 2 passed in 17.30 seconds ===========================
     ```
     - investigate [pytest_sauce]
+
 ####Step 4. Incorporate Continuous Integration Testing
 - objective:  trigger execution of test suite upon change to code base
 - connect [Github] <-> [Jenkins] <-> [SauceLabs]
 - Travis?
+
 ####Step 5. Improve test script resilience
 - make smart, resilient, robust test scripts 
 - create code abstraction
 - techniques:
     - [Page Object Model]
 - provide a test interface for developers and staff
+
 ####Step 6. Feedback - Recommendations - Alternatives
 - this is not a final step - it's an ongoing process
 - **Feedback:**
