@@ -4,10 +4,9 @@
 ________________________
 
 ###Test Plan Overview:
-####[Objectives](#objectives-1)
-####[Required Steps](#required-steps-1)
-
-3. Assessment Phase
+#####[Objectives](#objectives-1)
+#####[Required Steps](#required-steps-1)
+#####[Assessment Phase](#assessment-phase-1)
 4. Scope
 5. Proposed Approach
 6. Method
@@ -37,7 +36,7 @@ _________________________________
 
 _________________________
 
-###3. Assessment Phase
+###Assessment Phase
 1. Learn who's who. [Automation Engineer]
     - introductions, roles, responsibilities
 2. Learn the workflow and generate a UI sketch [Automation Engineer] 
