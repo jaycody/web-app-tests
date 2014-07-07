@@ -37,19 +37,20 @@ _________________________________
 _________________________
 
 ###3. Assessment Phase
-1. Learn who's who. [Automation Engineer]
+1. **Learn who's who.** [Automation Engineer]
     - introductions, roles, responsibilities
-2. Learn the workflow and generate a UI sketch [Automation Engineer] 
+2. **Learn the workflow and generate a UI sketch** [Automation Engineer] 
     - use [interactive sketching notation] and Illustrator
-3. Define requirements for functional testing [Homejoy] 
+3. **Define requirements for functional testing** [Homejoy] 
     - Can't test everything, so what are we most concerned with? 
     - create the input, determine the output, compare to expected 
-4. Determine what to do with test results?  Who receives the auto emails upon failure?  Texts?  [Homejoy]
+4. **Determine what to do with test results?**   [Homejoy]
+    - Who receives the auto-emailed failure notifications?  SMS?
     - Decision makers want timely reports!
-5. Determine who writes the scripts, who runs the sripts, and who's waiting for results  [Homejoy]
-6. Identify process and next steps [Automation Engineer]
+5. **Determine who writes the scripts, who runs the sripts, and who's waiting for results**  [Homejoy]
+6. **Identify process and next steps** [Automation Engineer]
 
-####Assessment for Version 2:
+#####Assessment for Version 2 of the automation project:
 - Define and test the operational requirments (version 2 features)
     - eg. Performance, Stress and Volume
 
