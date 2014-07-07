@@ -5,7 +5,7 @@ ________________________
 
 ###Test Plan Overview:
 ####[Objectives](#objectives-1)
-2. Required Steps
+####[Required Steps](#required-steps)
 3. Assessment Phase
 4. Scope
 5. Proposed Approach
@@ -22,7 +22,7 @@ _________________________________
 
 _________________________________
 
-###2. Required Steps
+###Required Steps
 1. Elucidate app's existing workflow  
     - what does it do?  
 2. Transform the workflow into test scripts  
