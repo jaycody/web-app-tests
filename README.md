@@ -23,15 +23,15 @@ _________________________________
 _________________________________
 
 ###2. Required Steps
-1. Elucidate app's existing workflow  
+1. **Elucidate app's existing workflow**  
     - what does it do?  
-2. Transform the workflow into test scripts  
+2. **Transform the workflow into test scripts**  
     - automate verification of what it supposed to do (Selenium WebDriver, Python)  
-3. Regard test scripts as software worthy of maintainence and version-control
+3. **Regard test scripts as software worthy of maintainence and version-control**
     - hey!  this is legitimate software devlopment
-4. Automate regression testing based on changes to code base.
+4. **Automate regression testing based on changes to code base.**
     - now automate the execution of the automated tests (Jenkins, github, SauceLabs)
-5. Use the test results!
+5. **Use the test results!**
     - pipe test output as an input to appropriate players
 
 _________________________
