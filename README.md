@@ -4,14 +4,14 @@
 ________________________
 
 ###Test Plan Overview:
-#####[Objectives](#objectives-1)
-#####[Required Steps](#required-steps-1)
-#####[Assessment Phase](#assessment-phase-1)
+#####[Objectives](#1-objectives)
+#####[Required Steps](#2-required-steps)
+#####[Assessment Phase](#3-assessment-phase)
 4. [Scope](#4-scope)
-5. Proposed Approach
-6. Method
-7. Defect Management
-8. Resources and Notes
+5. [Proposed Approach](#5-proposed-approach)
+6. [Method](#6-method)
+[7. Defect Management](#7-defect-managment-1)
+[8. Resources and Notes](#8-resources-and-notes-1)
 
 
 _________________________________
