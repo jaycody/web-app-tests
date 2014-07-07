@@ -3,8 +3,8 @@ a test automation plan for Homejoy
 
 ________________________
 
-###Test Plan Overview
-1. Objective
+###Test Plan Overview:
+####[Objectives]
 2. Required Steps
 3. Assessment Phase
 4. Scope
@@ -15,9 +15,11 @@ ________________________
 
 _________________________________
 
-###1. Objective
-- Continuously verify Homejoy webapp functionality.
-- Validate Homejoy webapp specifications and requirements.
+###Objectives
+- Continuously verify and validate Homejoy webapp functionality according to specs and requirements. 
+- Build and deploy a test automation framework capable of continuous verification and validation of the Homejoy webapp.
+
+_________________________________
 
 ###2. Required Steps
 1. Elucidate app's existing workflow  
@@ -94,74 +96,74 @@ ___________________________________
 
 
 
-###6. Method
--  Step 1. Build test suite prototype with [Selenium Builder]
-    - [se-builder-testSuite] - current location of test suite prototype
-    - record and modify test cases
-    - organize test cases as suite
-    - execute test suite locally
-    - execute test suite remotely on multi platforms
-    - manage error reporting
-    - pro: 
-        - rapid prototyping, extensive platform coverage
-    - con:
-        - clumsy. lacks abstraction, won't scale
-- Step 2. Create Python test scripts from prototype test suite
-    - [unittests] - location of ported test cases
-    - from [Selenium Builder] port test cases to Python
-    - fix translation issues with [Selenium WebDriver] and [Python] caused by porting test cases
-    - expand [unittest] features
-    - modify test cases to run from command line
-- Step 3. Modify Python test scripts to run multi-platform tests remotely
-    - to run test cases on remote servers, add:
+###VI. Method
+####Step 1. Build test suite prototype with [Selenium Builder]
+- current location of test suite prototype ==> [se-builder-testSuite] 
+- record and modify test cases
+- organize test cases as suite
+- execute test suite locally
+- execute test suite remotely on multi platforms
+- manage error reporting
+- pro: 
+    - rapid prototyping, extensive platform coverage
+- con:
+    - clumsy. lacks abstraction, won't scale
+####Step 2. Create Python test scripts from prototype test suite
+- current location of ported test cases ==> [unittests]
+- from [Selenium Builder] port test cases to Python
+- fix translation issues with [Selenium WebDriver] and [Python] caused by porting test cases
+- expand [unittest] features
+- modify test cases to run from command line
+####Step 3. Modify Python test scripts to run multi-platform tests remotely
+- to run test cases on remote servers, add:
+```
+webdriver.Remote()
+```
+- update setUp() to extend test case testing environment by specifying browsers, versions and platform
+- add SauceLab account login for access to remote test servers
+- improve error reporting.  How?  Switch test framework from **unittest** to **[pytest]**
+- why use **[pytest]**
+    - improved reporting
+    - run test cases as a single test suite
+    - test in parallel on multiple platforms
+    - executing parallel tests from command line:
     ```
-    webdriver.Remote()
+    $ py.test -n2 --boxed example.py
     ```
-    - update setUp() to extend test case testing environment by specifying browsers, versions and platform
-    - add SauceLab account login for access to remote test servers
-    - improve error reporting.  How?  Switch test framework from **unittest** to **[pytest]**
-    - why use **[pytest]**
-        - improved reporting
-        - run test cases as a single test suite
-        - test in parallel on multiple platforms
-        - executing parallel tests from command line:
-        ```
-        $ py.test -n2 --boxed example.py
-        ```
-        - Example pytest response from parallel tests
-        ```
-            ============================== test session starts ==============================
-            platform darwin -- Python 2.7.5 -- pytest-2.5.1
-            plugins: xdist
-            gw0 [2] / gw1 [2]
-            scheduling tests via LoadScheduling
-            ..
-            =========================== 2 passed in 17.30 seconds ===========================
-        ```
-        - investigate [pytest_sauce]
-- Step 4. Incorporate Continuous Integration Testing
-    - objective:  trigger execution of test suite upon change to code base
-    - connect [Github] <-> [Jenkins] <-> [SauceLabs]
-    - Travis?
-- Step 5. Improve test script resilience
-    - make smart, resilient, robust test scripts 
-    - create code abstraction
-    - techniques:
-        - [Page Object Model]
-    - provide a test interface for developers and staff
-- Step 6. Feedback - Recommendations - Alternatives
-    - this is not a final step - it's an ongoing process
-    - **Feedback:**
-        - actively pursue it.  invite it.  assume it's non-optional
-    - **Recommendations:**  
-        - remain open to the outcome rather than attached to the process (regardless of who created it from scratch)
-    - **Alternatives:**
-        - Review alternative test methodologies and frameworks
-        - test automation tools change daily, act accordingly
-        - build an evolvable framework
-        - **list of possible alternative**
-            - [Robot Framework]
-                - Robot Framework is a Python-based keyword-driven test automation framework with an easy-to-use tabular syntax for creating test cases. Its testing capabilities can be extended by test libraries implemented either with Python or Java. Users can also create new keywords from existing ones using the same simple syntax that is used for creating test cases.
+    - Example pytest response from parallel tests
+    ```
+        ============================== test session starts ==============================
+        platform darwin -- Python 2.7.5 -- pytest-2.5.1
+        plugins: xdist
+        gw0 [2] / gw1 [2]
+        scheduling tests via LoadScheduling
+        ..
+        =========================== 2 passed in 17.30 seconds ===========================
+    ```
+    - investigate [pytest_sauce]
+####Step 4. Incorporate Continuous Integration Testing
+- objective:  trigger execution of test suite upon change to code base
+- connect [Github] <-> [Jenkins] <-> [SauceLabs]
+- Travis?
+####Step 5. Improve test script resilience
+- make smart, resilient, robust test scripts 
+- create code abstraction
+- techniques:
+    - [Page Object Model]
+- provide a test interface for developers and staff
+####Step 6. Feedback - Recommendations - Alternatives
+- this is not a final step - it's an ongoing process
+- **Feedback:**
+    - actively pursue it.  invite it.  assume it's non-optional
+- **Recommendations:**  
+    - remain open to the outcome rather than attached to the process (regardless of who created it from scratch)
+- **Alternatives:**
+    - Review alternative test methodologies and frameworks
+    - test automation tools change daily, act accordingly
+    - build an evolvable framework
+    - **list of possible alternative**
+        - [Robot Framework]
+            - Robot Framework is a Python-based keyword-driven test automation framework with an easy-to-use tabular syntax for creating test cases. Its testing capabilities can be extended by test libraries implemented either with Python or Java. Users can also create new keywords from existing ones using the same simple syntax that is used for creating test cases.
 
 __________________________________
 
