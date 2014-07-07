@@ -84,6 +84,7 @@ ___________________________________
 
 ###5. Proposed Approach
 A Selenium-based multi-platform test automation suite written in Python and executed on [SauceLabs] test servers  
+
 **Components:**  
 - [Selenium Builder]
 - [Selenium WebDriver]
