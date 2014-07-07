@@ -17,18 +17,18 @@ ________________________
 
 _________________________
 
-###Part 2:  Assessment Phase for the new Automation Engineer
-1. Learn who's who.
-    - introductions, roles, responsibilties
-2. Learn the workflow and generate a UI sketch 
+###Part 2:  Project Assessment Phase
+1. Learn who's who. [Automation Engineer]
+    - introductions, roles, responsibilities
+2. Learn the workflow and generate a UI sketch [Automation Engineer] 
     - use [interactive sketching notation] and Illustrator
-3. Define requirements for fucntional testing
+3. Define requirements for functional testing [Homejoy] 
     - Can't test everything, so what are we most concerned with? 
     - create the input, determine the output, compare to expected 
-4. Determine what to do with test results?  Who receives the auto emails upon failure?  Texts?
+4. Determine what to do with test results?  Who receives the auto emails upon failure?  Texts?  [Homejoy]
     - Decision makers want timely reports!
-5. Determine who writes the scripts, who runs the sripts, and who's waiting for results
-6. Identify process and next steps
+5. Determine who writes the scripts, who runs the sripts, and who's waiting for results  [Homejoy]
+6. Identify process and next steps [Automation Engineer]
 
 ####Assessment for Version 2:
 - Define and test the operational requirments (version 2 features)
@@ -36,7 +36,7 @@ _________________________
 
 _____________________________
 
-###Part 3:  Project Plan
+###Part 3:  Create Project Plan
 1. Test Plan
 2. Methods
 3. Feedback and Recommendations
@@ -48,8 +48,9 @@ _______________________________
 
 ###3.1 The Test Plan
 ####3.1.1 Objective
-Continuously verify and validate that the Homejoy webapp functions according to specifications and requirements.
-#####3.1.2 Scope  
+- Continuously verify Homejoy webapp functionality.
+- Validate Homejoy webapp specifications and requirements.
+####3.1.2 Scope  
 This test plan covers basic UI and DB functionality as would be required for general user scenarios within a wide variety of environments and platforms.
 
 #####**In-Scope:**
@@ -204,3 +205,5 @@ _______________________________
 [Robot Framework]:https://github.com/robotframework/robotframework
 [Page Object Model]:http://martinfowler.com/bliki/PageObject.html
 [unittests]:https://github.com/jayjaycody/web-app-tests/tree/master/unittests
+[Automation Engineer]:http://linkedin.com/in/videoalchemy/
+[Homejoy]:http://homejoy.com
