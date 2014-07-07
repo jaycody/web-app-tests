@@ -4,14 +4,14 @@
 ________________________
 
 ###Test Plan Overview:
-[1. Objectives](#1-objectives-1)  
-[2. Required Steps](#2-required-steps-1)  
-[3. Assessment Phase](#3-assessment-phase-1)  
-[4. Scope](#4-scope-1)    
-[5. Proposed Approach](#5-proposed-approach-1)  
-[6. Method](#6-method-1)  
-[7. Defect Management](#7-defect-managment-1)  
-[8. Resources and Notes](#8-resources-and-notes-1)
+[1. Objectives](#1-objectives)  
+[2. Required Steps](#2-required-steps)  
+[3. Assessment Phase](#3-assessment-phase)    
+[4. Scope](#4-scope)    
+[5. Proposed Approach](#5-proposed-approach)    
+[6. Method](#6-method)    
+[7. Defect Management](#7-defect-managment)    
+[8. Resources and Notes](#8-resources-and-notes)  
 
 
 _________________________________
@@ -97,7 +97,7 @@ ___________________________________
 
 
 
-###VI. Method
+###6. Method
 ####Step 1. Build test suite prototype with [Selenium Builder]
 - current location of test suite prototype ==> [se-builder-testSuite] 
 - record and modify test cases
