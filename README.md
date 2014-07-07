@@ -4,7 +4,7 @@ a test automation plan for Homejoy
 ________________________
 
 ###Test Plan Overview:
-####[Objectives]
+####[Objectives](https://github.com/jayjaycody/web-app-tests#objectives-1)
 2. Required Steps
 3. Assessment Phase
 4. Scope
