@@ -1,10 +1,26 @@
-##Web App Test Automation
-test plan, test cases, and automation strategies for Homejoy [prototype]
+##Web App Test
+a test automation plan for Homejoy
 
 ________________________
 
-###Part 1:  Project Overview
-1. Elucidate app's existing worklow  
+###Test Plan Overview
+1. Objective
+2. Required Steps
+3. Assessment Phase
+4. Scope
+5. Proposed Approach
+6. Method
+7. Defect Management
+8. Resources and Notes
+
+_________________________________
+
+###1. Objective
+- Continuously verify Homejoy webapp functionality.
+- Validate Homejoy webapp specifications and requirements.
+
+###2. Required Steps
+1. Elucidate app's existing workflow  
     - what does it do?  
 2. Transform the workflow into test scripts  
     - automate verification of what it supposed to do (Selenium WebDriver, Python)  
@@ -17,7 +33,7 @@ ________________________
 
 _________________________
 
-###Part 2:  Project Assessment Phase
+###3. Assessment Phase
 1. Learn who's who. [Automation Engineer]
     - introductions, roles, responsibilities
 2. Learn the workflow and generate a UI sketch [Automation Engineer] 
@@ -36,24 +52,10 @@ _________________________
 
 _____________________________
 
-###Part 3:  Create Project Plan
-1. Test Plan
-2. Methods
-3. Feedback and Recommendations
-4. Roadmap and Long Range
-5. TimeLines
-6. Build It
-
-_______________________________
-
-###3.1 The Test Plan
-####3.1.1 Objective
-- Continuously verify Homejoy webapp functionality.
-- Validate Homejoy webapp specifications and requirements.
-####3.1.2 Scope  
+###4. Scope  
 This test plan covers basic UI and DB functionality as would be required for general user scenarios within a wide variety of environments and platforms.
 
-#####**In-Scope:**
+####**In-Scope:**
 - **Platforms and Environments**
     - **MOBILE:**
         - All major mobile browsers for current and recent versions iOS and Android
@@ -70,11 +72,13 @@ This test plan covers basic UI and DB functionality as would be required for gen
     - Add Service to Existing Appointment
     - Remove Service from Existing Appointment
 
-#####**Out-of-Scope:**
+####**Out-of-Scope:**
 - UX / usability / layout
 - performance and load testing
 
-####3.1.3 Approach
+___________________________________
+
+###5. Proposed Approach
 A Selenium-based multi-platform test automation suite written in Python and executed on [SauceLabs] test servers  
 **Components:**  
 - [Selenium Builder]
@@ -86,23 +90,11 @@ A Selenium-based multi-platform test automation suite written in Python and exec
 - [Jenkins]
 - [Github]
 
+___________________________________
 
 
-####3.1.4 Defect Management
-- error reporting:
-    - pytests
-    - Dashboard on SauceLabs
-    - triggered emails
-    - In-office Alert System involving bright lights and loud sirens
-         - [triggered when Raspberry Pi detects reported error]
-- bug tracking
-    - Homejoy's current system?
-    - Asana
-    - Jira 
 
-__________________________
-
-###3.2 Method
+###6. Method
 -  Step 1. Build test suite prototype with [Selenium Builder]
     - [se-builder-testSuite] - current location of test suite prototype
     - record and modify test cases
@@ -157,17 +149,38 @@ __________________________
     - techniques:
         - [Page Object Model]
     - provide a test interface for developers and staff
-- Step 6. Review alternative methodologies
-    - test automation tools change daily, act accordingly
-    - build an evolvable framework
-    - **list of possible alternative**
-        - [Robot Framework]
-            - Robot Framework is a Python-based keyword-driven test automation framework with an easy-to-use tabular syntax for creating test cases. Its testing capabilities can be extended by test libraries implemented either with Python or Java. Users can also create new keywords from existing ones using the same simple syntax that is used for creating test cases.
+- Step 6. Feedback - Recommendations - Alternatives
+    - this is not a final step - it's an ongoing process
+    - **Feedback:**
+        - actively pursue it.  invite it.  assume it's non-optional
+    - **Recommendations:**  
+        - remain open to the outcome rather than attached to the process (regardless of who created it from scratch)
+    - **Alternatives:**
+        - Review alternative test methodologies and frameworks
+        - test automation tools change daily, act accordingly
+        - build an evolvable framework
+        - **list of possible alternative**
+            - [Robot Framework]
+                - Robot Framework is a Python-based keyword-driven test automation framework with an easy-to-use tabular syntax for creating test cases. Its testing capabilities can be extended by test libraries implemented either with Python or Java. Users can also create new keywords from existing ones using the same simple syntax that is used for creating test cases.
 
+__________________________________
+
+
+###7. Defect Management
+- error reporting:
+    - pytests
+    - Dashboard on SauceLabs
+    - triggered emails
+    - In-office Alert System involving bright lights and loud sirens
+         - [triggered when Raspberry Pi detects reported error]
+- bug tracking
+    - Homejoy's current system?
+    - Asana
+    - Jira 
 
 _______________________________
 
-###Resources and Notes
+###8. Resources and Notes
 - [Page Object Model]
     - [Martin Fowler's article](http://martinfowler.com/bliki/PageObject.html)
         - A page object wraps an HTML page, or fragment, with an application-specific API, allowing you to manipulate page elements without digging around in the HTML.
