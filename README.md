@@ -5,7 +5,8 @@ ________________________
 
 ###Test Plan Overview:
 ####[Objectives](#objectives-1)
-####[Required Steps](#required-steps)
+####[Required Steps](#required-steps-1)
+
 3. Assessment Phase
 4. Scope
 5. Proposed Approach
