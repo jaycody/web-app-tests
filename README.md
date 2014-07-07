@@ -1,5 +1,5 @@
 ##Web App Test
-a test automation plan for Homejoy
+>a test automation plan for Homejoy
 
 ________________________
 
