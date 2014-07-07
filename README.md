@@ -10,7 +10,7 @@ ________________________
 [4. Scope](#4-scope-1)    
 [5. Proposed Approach](#5-proposed-approach-1)  
 [6. Method](#6-method-1)  
-[7. Defect Management](#7-defect-managment-1)
+[7. Defect Management](#7-defect-managment-1)  
 [8. Resources and Notes](#8-resources-and-notes-1)
 
 
