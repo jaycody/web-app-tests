@@ -150,7 +150,7 @@ webdriver.Remote()
 ####Step 4. Incorporate Continuous Integration Testing
 - objective:  trigger execution of test suite upon change to code base
 - connect [Github] <-> [Jenkins] <-> [SauceLabs]
-- Travis?
+- [Travis] - continuous integration platform
 
 ####Step 5. Improve test script resilience
 - make smart, resilient, robust test scripts 
@@ -267,3 +267,4 @@ _______________________________
 [robot + selenium video tutorials]:http://robotframework.org/#documentation
 [RIDE]:https://github.com/robotframework/RIDE/wiki
 [multi-mechanize]:http://testutils.org/multi-mechanize/
+[Travis]:https://travis-ci.org
