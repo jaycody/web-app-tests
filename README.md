@@ -75,13 +75,13 @@ This test plan covers basic UI and DB functionality as would be required for gen
     - Add Service to Existing Appointment
     - Remove Service from Existing Appointment
 
-####**Out-of-Scope for v.1:**
-- UX / usability / layout
+####**v.2:**
+- UX/usability
 - performance and load testing
 
 ___________________________________
 
-###5. Proposed Approach
+###5. Proposed Approach for v.1
 A Selenium-based multi-platform test automation suite written in Python and executed on [SauceLabs] test servers  
 
 **Components:**  
