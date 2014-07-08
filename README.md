@@ -76,7 +76,7 @@ This test plan covers basic UI and DB functionality as would be required for gen
     - Add Service to Existing Appointment
     - Remove Service from Existing Appointment
 
-####**Out-of-Scope:**
+####**Out-of-Scope for v.1:**
 - UX / usability / layout
 - performance and load testing
 
