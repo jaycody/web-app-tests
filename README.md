@@ -29,7 +29,7 @@ _________________________________
     - automate verification of what it supposed to do (Selenium WebDriver, Python)  
 3. **Regard test scripts as software worthy of maintainence and version-control**
     - hey!  this is legitimate software devlopment
-4. **Automate regression testing based on changes to code base.**
+4. **Automate test run on checkin via github plugin**
     - now automate the execution of the automated tests (Jenkins, github, SauceLabs)
 5. **Use the test results!**
     - pipe test output as an input to appropriate players
