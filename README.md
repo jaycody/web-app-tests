@@ -27,8 +27,7 @@ _________________________________
     - what does it do?  
 2. **Transform the workflow into test scripts**  
     - automate verification of what it supposed to do (Selenium WebDriver, Python)  
-3. **Regard test scripts as software worthy of maintainence and version-control**
-    - hey!  this is legitimate software devlopment
+3. **Prioritize the maintenance and version-control of test scripts**
 4. **Automate test run on checkin via github plugin**
     - now automate the execution of the automated tests (Jenkins, github, SauceLabs)
 5. **Use the test results!**
