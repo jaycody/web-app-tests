@@ -1,5 +1,17 @@
 #! /usr/bin/env python
 
+""" jstephens  -  webapp test automation  ==> Selenium unittests
+
+Method:
+- created with SE-Builder in Firefox
+- exported to python unittest version
+- updated .py file to run as a standalone test case.
+
+Test Case:
+- Verify the presence and functionality of the Book Appointment Button
+"""
+
+
 # -*- coding: utf-8 -*-
 from selenium.webdriver.firefox.webdriver import WebDriver
 from selenium.webdriver.common.action_chains import ActionChains
